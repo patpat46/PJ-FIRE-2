@@ -18,5 +18,6 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         home: Enter());
+    ////// เชื่อม เข้า ไปหน้าเลือก x
   }
 }
