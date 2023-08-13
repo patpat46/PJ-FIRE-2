@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class info1 extends StatelessWidget {
-  const info1({super.key});
+class Info1 extends StatelessWidget {
+  const Info1({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -9,12 +9,12 @@ class info1 extends StatelessWidget {
       body: Column(
         children: [
           Image.asset(
-            "assets/image 1.png",
+            "assets/images/image1.png",
             width: 108,
             height: 108,
           ),
           Image.asset(
-            "assets/images/image 5.png",
+            "assets/images/image5.png",
             width: 48,
             height: 48,
           ),
@@ -23,7 +23,8 @@ class info1 extends StatelessWidget {
               Container(
                   width: 299,
                   height: 493,
-                  decoration: BoxDecoration(color: Color(0xffd9d9d9))),
+                  decoration:
+                      BoxDecoration(color: Color.fromARGB(255, 255, 128, 0))),
               Text("นาย แพท เพ็งแจ่ม",
                   style: TextStyle(
                     fontSize: 30,
@@ -42,7 +43,7 @@ class info1 extends StatelessWidget {
             ],
           ),
           Image.asset(
-            "assets/images/image 4.png",
+            "assets/images/image4.png",
             width: 48,
             height: 48,
           )

@@ -29,7 +29,7 @@ class output extends StatelessWidget {
             ],
           ),
           Image.asset(
-            "assets/images/image 1.png",
+            "assets/images/image1.png",
             width: 108,
             height: 108,
           ),
@@ -47,12 +47,12 @@ class output extends StatelessWidget {
             ],
           ),
           Image.asset(
-            "assets/images/image 3.png",
+            "assets/images/image3.png",
             width: 46,
             height: 46,
           ),
           Image.asset(
-            "assets/images/image 4.png",
+            "assets/images/image4.png",
             width: 48,
             height: 48,
           )

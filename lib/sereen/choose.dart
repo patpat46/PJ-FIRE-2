@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 
-class choose extends StatelessWidget {
-  const choose({super.key});
+class Choose extends StatelessWidget {
+  const Choose({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("enter")),
       body: Column(
         children: [
           Stack(
@@ -40,7 +39,7 @@ class choose extends StatelessWidget {
             ],
           ),
           Image.asset(
-            "assets/images/image 1.png",
+            "assets/images/image1.png",
             width: 172,
             height: 172,
           ),
@@ -50,7 +49,7 @@ class choose extends StatelessWidget {
                 // fontWeight: FontWeith.w400,**********
               )),
           Image.asset(
-            "assets/images/image 3.png",
+            "assets/images/image3.png",
             width: 46,
             height: 46,
           )
