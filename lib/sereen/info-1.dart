@@ -6,7 +6,9 @@ class Info1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromARGB(255, 255, 98, 0),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Image.asset(
             "assets/images/image1.png",
